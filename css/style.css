@@ -15,24 +15,76 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 */
 
 /* VARIÁVEIS */
-:root{
-  
+:root {
+}
+
+/* RESET */
+body,
+header,
+figure,
+img,
+section,
+ul,
+li,
+figcaption,
+footer {
+  margin: 0;
+  top: 0;
+  padding: 0;
 }
 
 /*BODY*/
-	body{
-
-	}
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #00002e;
+  color: white;
+}
 
 /*TOPO*/
-	header.topo{
-		
-	}
+header.topo {
+}
 
 /*RODAPÉ*/
-	
 
 /*PÁGINA INICIAL*/
-	div.pg-home{
-		
-	}
+div.pg-home {
+  max-width: 858px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+section ul li {
+  list-style: none;
+  margin: 0 1rem;
+}
+
+section ul li figure img {
+  max-width: 186px;
+}
+
+footer {
+}
+
+button {
+  margin-top: 60px;
+  font-size: 40px;
+  color: white;
+  border: 2px solid;
+  background-color: transparent;
+  padding: 10px;
+}
+
+/* MEDIA */
+
+@media screen and (min-width: 740px) {
+  section ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
