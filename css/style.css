@@ -88,6 +88,20 @@ button {
 
 /* MEDIA */
 
+@media screen and (min-width: 445px) {
+  header h2 {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  header h2 {
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
+}
+
 @media screen and (max-width: 436px) {
   section ul {
     flex-wrap: nowrap;
