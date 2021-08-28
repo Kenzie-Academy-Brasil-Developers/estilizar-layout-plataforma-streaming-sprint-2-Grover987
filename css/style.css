@@ -70,16 +70,20 @@ section ul li figure img {
   max-width: 186px;
 }
 
+section ul li figure figcaption {
+  display: none;
+}
+
 footer {
 }
 
 button {
   margin-top: 60px;
-  font-size: 40px;
+  font-size: 20px;
   color: white;
   border: 2px solid;
   background-color: transparent;
-  padding: 10px;
+  padding: 1rem 2rem 1rem 2rem;
 }
 
 /* MEDIA */
