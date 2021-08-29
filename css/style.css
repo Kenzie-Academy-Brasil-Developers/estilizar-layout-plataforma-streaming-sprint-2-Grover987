@@ -93,6 +93,14 @@ button {
     font-size: 3rem;
     margin-bottom: 4rem;
   }
+  .addPerfil figure img {
+    margin-top: 30px;
+  }
+  .addPerfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 @media screen and (min-width: 800px) {
